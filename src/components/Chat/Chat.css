@@ -1,0 +1,59 @@
+.active_user {
+  cursor: pointer !important;
+}
+
+.active_user:hover {
+  color: rgb(92, 92, 253) !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.sendBtn a {
+  cursor: pointer;
+  padding-top: 0.6rem;
+  text-align: center;
+  padding: none;
+  border-radius: 50%;
+  background-color: #01caf1;
+  width: 40px;
+  height: 40px;
+}
+
+.sendBtn a:hover {
+  background-color: #59e3ff;
+}
+
+.sendBtn svg {
+  font-size: 1.4rem;
+}
+
+.chat-item {
+  list-style-type: none;
+}
+
+.chat-content {
+  border-radius: 10px;
+  background-color: #eef5ff;
+  max-width: 40vw;
+}
+
+.li-message-center {
+  list-style: none;
+}
+
+.container-fluid {
+  padding-top: 15px;
+}
+
+.admin-chat {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.client-chat {
+  border-radius: 10px;
+  background-color: #e4fbf8;
+}
+
+.chat-box {
+  overflow: scroll;
+}

@@ -1,0 +1,28 @@
+.navbar {
+  border: 1px solid rgb(182, 182, 182);
+  min-height: 93vh;
+  max-height: 100%;
+  padding: 0rem 1rem;
+  color: #9f98a4;
+  line-height: 2rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #9f98a4;
+}
+
+.navbar a:hover {
+  font-weight: 600;
+  color: #a56aff;
+}
+
+.icon {
+  color: #a56aff;
+}
+
+.navbar h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}

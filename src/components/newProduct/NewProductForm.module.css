@@ -1,0 +1,52 @@
+.newProductSection {
+  margin: 2rem 1rem 0rem 1rem;
+  padding: 2rem;
+  box-shadow: 5px 5px 10px 5px #e1e1e1;
+  color: #787878;
+}
+
+.newProductForm {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10rem;
+  row-gap: 2rem;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputDiv input {
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1px solid #787878;
+}
+
+#image {
+  border-bottom: none !important;
+}
+
+.imageDiv {
+  grid-column: span 2;
+}
+
+.sendBtn {
+  width: 10rem;
+  max-height: 3.5rem;
+  padding: 0.7rem;
+  color: white;
+  background-color: #a56aff;
+  border-radius: 5px;
+  border: none;
+}
+
+.sendBtn:hover {
+  background-color: #bf94ff;
+}
+
+.errorText {
+  color: red;
+}

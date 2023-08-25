@@ -1,0 +1,27 @@
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  z-index: 100;
+  background: rgba(49, 49, 49, 0.8);
+  transition: all 0.3s;
+}
+
+.modalContent {
+  font-size: 0.9rem;
+  position: fixed;
+  z-index: 101;
+  background-color: white;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

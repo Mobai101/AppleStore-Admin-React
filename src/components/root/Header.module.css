@@ -1,0 +1,9 @@
+.header {
+  border: 1px solid rgb(182, 182, 182);
+  padding: 1rem;
+  color: #a56aff;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
